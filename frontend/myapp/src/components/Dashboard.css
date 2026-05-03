@@ -1,0 +1,92 @@
+.dashboard{
+  padding:40px;
+  background:#f4f6f9;
+  min-height:100vh;
+}
+
+.dashboard-title{
+  margin-bottom:30px;
+  color:#333;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3{
+  font-size:16px;
+  margin-bottom:10px;
+  color:#555;
+}
+
+.card p{
+  font-size:28px;
+  font-weight:bold;
+  color:#333;
+}
+
+.alert{
+  border-left:5px solid #ff3b30;
+}
+
+.view-student{
+  padding:10px 20px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.view-student:hover{
+  background:#1d4ed8;
+}
+
+.gauge-card{
+  width:300px;
+  padding:20px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+/* .dashboard {
+  padding: 30px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  border: 1px solid #e5e7eb;
+} */
+
+/* Add color accents */
+/* .card:nth-child(1) {
+  border-top: 4px solid #6366f1;
+}
+
+.card:nth-child(2) {
+  border-top: 4px solid #22c55e;
+}
+
+.card:nth-child(3) {
+  border-top: 4px solid #ef4444;
+}
+
+.card:nth-child(4) {
+  border-top: 4px solid #f59e0b;
+} */
