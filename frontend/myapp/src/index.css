@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 16px 20px !important;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    margin-left: 0 !important;
+  }
+
+  .login-wrapper {
+    min-height: 100vh;
+    height: auto !important;
+    flex-direction: column;
+  }
+
+  .login-left,
+  .login-right {
+    width: 100%;
+    min-height: 50vh;
+    padding: 28px 20px !important;
+  }
+
+  .login-left h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 360px;
+    padding: 28px 20px !important;
+  }
+
+  .dashboard,
+  .leads-container {
+    padding: 24px 16px !important;
+  }
+
+  .cards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .gauge-card,
+  .search,
+  .upload-box {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .lead-form,
+  .filters {
+    flex-direction: column;
+  }
+
+  .lead-form input,
+  .lead-form select,
+  .lead-form button,
+  .filter_source,
+  .filter_status {
+    width: 100%;
+  }
+
+  .leads-container {
+    overflow-x: auto;
+  }
+
+  .leads-table {
+    min-width: 760px;
+  }
+}
